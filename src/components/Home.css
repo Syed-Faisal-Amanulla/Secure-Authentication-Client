@@ -1,0 +1,143 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+    /* Prevent horizontal overflow */
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    /* Allow vertical scrolling if needed */
+}
+
+/* Hero Section */
+.hero {
+    height: 65vh;
+    /* 60% of the viewport height */
+    background-image: url('bg1.jpg');
+    /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+}
+
+.hero-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    /* Ensures content is above the overlay */
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e50914;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+    background-color: #e50914;
+}
+
+/* Features Section */
+.features {
+    height: 35vh;
+    /* 40% of the viewport height */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* Center items vertically */
+    padding: 0 20px;
+    /* Horizontal padding */
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+    /* Include padding in height calculation */
+}
+
+.feature {
+    text-align: center;
+    max-width: 300px;
+}
+
+.feature h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .features {
+        flex-direction: column;
+        height: auto;
+        /* Allow auto height on small screens */
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-content button {
+        font-size: 1rem;
+    }
+}

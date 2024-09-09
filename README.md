@@ -10,6 +10,8 @@
 
 🔐 Set up protection for routes post-authentication
 
+
+
 💡 This project involved password hashing, session management, and role-based access control to guarantee top-notch security! 🔒
 
 # Sample video of this Project

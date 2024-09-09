@@ -1,3 +1,18 @@
+Task 1 in my Full-Stack Web Development internship at Prodigy InfoTech! 🌟
+
+#Sample video of this Project
+
+Employee Management System - https://shorturl.at/6KY08
+
+✅ Implemented Secure User Authentication using MERN Stack: 
+🔐 Added robust email verification during sign-up 
+🔐 Ensured secure login and registration 
+🔐 Set up protection for routes post-authentication
+
+💡 This project involved password hashing, session management, and role-based access control to guarantee top-notch security! 🔒
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

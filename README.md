@@ -3,7 +3,11 @@
 ✅ Implemented Secure User Authentication using MERN Stack: 
 
 🔐 Added robust email verification during sign-up 
+
+
 🔐 Ensured secure login and registration 
+
+
 🔐 Set up protection for routes post-authentication
 
 💡 This project involved password hashing, session management, and role-based access control to guarantee top-notch security! 🔒

@@ -1,6 +1,7 @@
 # Task 1 in my Full-Stack Web Development internship at Prodigy InfoTech! 🌟
 
 ✅ Implemented Secure User Authentication using MERN Stack: 
+
 🔐 Added robust email verification during sign-up 
 🔐 Ensured secure login and registration 
 🔐 Set up protection for routes post-authentication
